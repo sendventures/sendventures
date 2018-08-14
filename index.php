@@ -4,10 +4,27 @@
 	<title>SendVentures</title>
 </head>
 <body>
+	
+	
+	
+	
 
 <h1>SendVentures, Inc.</h1>
-
-<h2>Copyright 2018</h2>
+	
+<br>
+	
+	<h3>Get in touch</h3>
+	
+<form method="POST" action="https://formspree.io/bostonmass15@yahoo.com">
+  <input type="name" name="name" placeholder="Your name">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>	
+	
+<br>	
+	
+<h6>Copyright 2018</h6>
 	
 	
 	
@@ -15,34 +32,6 @@
 	
 	
 	
-	<?php
-      if(isset($_POST['submit']))
-      {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $file = fopen("text.txt","w+") or die("file not open"); //create and open text file
-        $s = $name.",".$email."\n";
-        fputs($file,$s) or die("Data is ghey"); //write single line to file
-        fclose($file); //close file
-      }
-
-
-//echo file_put_contents("formdata.txt","Hello World. Testing!");
-
-      ?>
-
-
-
-    <main>
-
-        <p>store email</p>
-        <form action="#" method="POST">
-            <input type="text" name="name" placeholder="full name">
-            <input type="text" name="email" placeholder="your email">
-            <button type="submit" name="submit">Subscribe</button>
-        </form>
-
-    </main>
 	
 	
 	
