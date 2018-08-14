@@ -11,17 +11,7 @@
 	
 	
 	
-/*	<main>
 
-        <p>store email</p>
-        <form action="contactform.php" method="post">
-            <input type="text" name="name" placeholder="full name">
-            <input type="text" name="email" placeholder="your email">
-            <button type="submit" name="submit">Subscribe</button>
-        </form>
-
-    </main>
-	*/
 	
 	
 	
@@ -32,7 +22,7 @@
         $email = $_POST['email'];
         $file = fopen("text.txt","w+") or die("file not open"); //create and open text file
         $s = $name.",".$email."\n";
-        fputs($file,$s) or die("Data is gay"); //write single line to file
+        fputs($file,$s) or die("Data is ghey"); //write single line to file
         fclose($file); //close file
       }
 
