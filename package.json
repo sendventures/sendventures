@@ -1,0 +1,11 @@
+{
+  "name": "sendventures-static",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  }
+}
