@@ -9,3 +9,7 @@
   - Content source of truth going forward: `flyer/Flyer-raw-data-input.md`
   - `flyer/wantwishgive-logo.png` is the embedded WantWishGive logo
   - Print to PDF manually from Firefox (headless print-to-pdf doesn't work on this machine); `@page` + `print-color-adjust` CSS ensures A4 full-bleed output
+
+## 2026-10-10
+- Updated `current-projects.html`: added BeardedBaby.xyz and StreetSmart Fluency entries
+  - Page order is now: BeardedBaby.xyz, WantWishGive.com, StreetSmart Fluency, EmergencyContact.info, Pronunciation Professor
